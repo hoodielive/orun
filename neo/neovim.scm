@@ -55,7 +55,7 @@
              (commit (string-append "v" version))))
        (file-name (git-file-name name version))
        (sha256
-        (base32 "d4b5b3984f607eaec1cca1df33120adfbaa89cf167d0cac77eb95fd1a9c21e9d"))))
+        (base32 "0159e4daaed1347db8719c27946fcfdc4e49e92d"))))
     (build-system cmake-build-system)
     (arguments
      `(#:modules ((srfi srfi-26)
